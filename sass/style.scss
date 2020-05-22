@@ -22,6 +22,41 @@ h1{
     color: $yellow;
 }
 
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+}
+ article{
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 500px;
+    margin-left: 47px;
+    text-align: center;
+    .titre_menu{
+        padding-left: 90px;
+        padding-top: 180px;
+        line-height: 300%;
+        }
+        .menu{
+            text-transform: uppercase;
+        }
+}
+
+ .menu1{
+     background: blue;
+ }
+ .menu2{
+     background: blueviolet;
+ }
+ .menu3{
+     background: yellow;
+ }
+ .menu4{
+     background: yellowgreen;
+ }
+
 .button{
     position: relative;
     width: 370px;
