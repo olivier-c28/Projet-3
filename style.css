@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "kaushan_scriptregular";
+  src: url("police/kaushanscript-regular-webfont.woff2") format("woff2"), url("police/kaushanscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -34,15 +40,17 @@ article {
 article .titre_menu {
   text-align: center;
   margin-top: 180px;
-  padding-top: 210px;
-  line-height: 50px;
+  padding-top: 150px;
 }
 article .menu {
   text-transform: uppercase;
+  position: relative;
+  top: 30px;
 }
 
 .menu1 {
-  background: blue;
+  background: rgba(250, 221, 216, 0.925);
+  font-family: "kaushan_scriptregular";
 }
 
 .menu2 {
