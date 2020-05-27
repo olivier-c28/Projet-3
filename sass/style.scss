@@ -40,6 +40,7 @@ section{
     position: relative;
     width: 320px;
     height: 510px;
+    box-shadow: 1px 2px 4px 4px rgba(199, 196, 196, 0.87);
     .titre_menu{
         text-align: center;
         margin-top: 180px;
@@ -59,7 +60,7 @@ section{
  }
  .menu2{
      background: rgb(254, 247, 255);
- }
+}
  .menu3{
      background: yellow;
  }
