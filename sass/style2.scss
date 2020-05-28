@@ -1,3 +1,6 @@
+$pink: rgba(250, 221, 216, 0.925);
+$yellow: #F1C40F;
+
 html, body {
   margin: 0;
   padding: 0;
@@ -16,22 +19,27 @@ h1 {
   left: 570px;
   top: 30px;
   font-size: 65px;
-  color: #F1C40F;
-}
-
-h2{
-  position: relative;
-  left: 560px;
-  top: 60px;
-  font-size: 40px;
-  font-weight: bolder;
+  color: $yellow;
 }
 
 section{
+  display: flex;
+  flex-direction: column;
   position: relative;
-  width: 320px;
-  height: 510px;
-  background-color: black;
+  text-align: center;
+  h2{
+    font-size: 40px;
+    font-weight: bolder;
+    }
+    article{
+      width: 820px;
+      height: 1010px;
+      margin-left: 300px;
+      }
+}
+
+.pink{
+  background-color: $pink;
 }
 
 footer {
@@ -39,7 +47,7 @@ footer {
   width: 100%;
   height: 90px;
   background-color: #16A085;
-  top: 250px;
+  top: 160px;
 }
 
 .text1 {
@@ -47,7 +55,7 @@ footer {
   left: 20px;
   top: 30px;
   font-size: 30px;
-  color: #F1C40F;
+  color: $yellow
 }
 
 .text2 {
@@ -55,11 +63,11 @@ footer {
   left: 1020px;
   top: 30px;
   font-size: 30px;
-  color: #F1C40F;
+  color: $yellow;
 }
 
 a{
     text-decoration: none;
-    color: #F1C40F;
+    color: $yellow;
 }
 /*# sourceMappingURL=style2.css.map */

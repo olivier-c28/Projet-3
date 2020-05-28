@@ -19,19 +19,24 @@ h1 {
   color: #F1C40F;
 }
 
-h2 {
+section {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  left: 560px;
-  top: 60px;
+  text-align: center;
+}
+section h2 {
   font-size: 40px;
   font-weight: bolder;
 }
+section article {
+  width: 820px;
+  height: 1010px;
+  margin-left: 300px;
+}
 
-section {
-  position: relative;
-  width: 320px;
-  height: 510px;
-  background-color: black;
+.pink {
+  background-color: rgba(250, 221, 216, 0.925);
 }
 
 footer {
@@ -39,7 +44,7 @@ footer {
   width: 100%;
   height: 90px;
   background-color: #16A085;
-  top: 250px;
+  top: 160px;
 }
 
 .text1 {
