@@ -1,6 +1,24 @@
 @font-face {
   font-family: "kaushan_scriptregular";
-  src: url("police/kaushanscript-regular-webfont.woff2") format("woff2"), url("police/kaushanscript-regular-webfont.woff") format("woff");
+  src: url("police/kaushanscript/kaushanscript-regular-webfont.woff2") format("woff2"), url("police/kaushanscript/kaushanscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alluraregular";
+  src: url("police/allura/allura-regular-webfont.woff2") format("woff2"), url("police/allura/allura-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "loraregular";
+  src: url("police/lora/lora-regular-webfont.woff2") format("woff2"), url("police/lora/lora-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "boogalooregular";
+  src: url("police/boogaloo/boogaloo-regular-webfont.woff2") format("woff2"), url("police/boogaloo/boogaloo-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -45,6 +63,7 @@ article .titre_menu {
 }
 article .menu {
   text-transform: uppercase;
+  font-weight: bold;
   position: relative;
   top: 30px;
 }
@@ -57,14 +76,24 @@ article .menu {
 
 .menu2 {
   background: #fef7ff;
+  font-family: "loraregular";
+  font-size: 18px;
+  color: purple;
 }
 
 .menu3 {
-  background: yellow;
+  background: #f8f8f0;
+  font-family: "alluraregular";
+  font-size: 18px;
+  color: blue;
 }
 
 .menu4 {
-  background: yellowgreen;
+  background: white;
+  font-family: "boogalooregular";
+  font-style: italic;
+  font-size: 18px;
+  color: #11ca11;
 }
 
 .button {
