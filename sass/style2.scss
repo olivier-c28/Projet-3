@@ -1,5 +1,6 @@
 $pink: rgba(250, 221, 216, 0.925);
 $yellow: #F1C40F;
+$green: #16A085;
 
 @font-face {
     font-family: 'kaushan_scriptregular';
@@ -15,16 +16,16 @@ html, body {
 }
 
 header {
-  position: relative;
+  display: flex;
   width: 100%;
   height: 150px;
-  background-color: #16A085;
+  background-color: $green;
 }
 
 h1 {
   position: relative;
   display: inline;
-  left: 570px;
+  left: 40%;
   top: 30px;
   font-size: 65px;
   color: $yellow;
@@ -42,7 +43,7 @@ section{
     article{
       width: 820px;
       height: 1330px;
-      margin-left: 315px;
+      margin-left: 23%;
       }
 }
 
@@ -114,13 +115,13 @@ footer {
   position: relative;
   width: 100%;
   height: 90px;
-  background-color: #16A085;
+  background-color: $green;
   top: 160px;
 }
 
 .text1 {
   position: relative;
-  left: 20px;
+  left: 1%;
   top: 30px;
   font-size: 30px;
   color: $yellow
@@ -128,7 +129,7 @@ footer {
 
 .text2 {
   position: relative;
-  left: 1020px;
+  left: 72%;
   top: 30px;
   font-size: 30px;
   color: $yellow;
