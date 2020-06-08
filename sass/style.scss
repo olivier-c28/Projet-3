@@ -1,6 +1,8 @@
 $green: #16A085 ;
 $yellow: #F1C40F;
 
+/*police*/ 
+
 @font-face {
     font-family: 'kaushan_scriptregular';
     src: url('police/kaushanscript/kaushanscript-regular-webfont.woff2') format('woff2'),
@@ -59,6 +61,7 @@ section{
     justify-content: space-around;
     position: relative;
 }
+
  article{
     position: relative;
     width: 320px;
