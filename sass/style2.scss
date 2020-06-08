@@ -5,6 +5,7 @@ $pink2: rgb(254, 247, 255);
 $pink3: rgb(236, 236, 233);
 $white: rgb(255, 255, 255);
 
+/* police */
 @font-face {
     font-family: 'kaushan_scriptregular';
     src: url('../police/kaushanscript/kaushanscript-regular-webfont.woff2') format('woff2'),
@@ -75,7 +76,8 @@ section{
       }
 }
 
-.pink{
+/* menu1 */
+.enchanté{
   background-color: $pink;
   display: flex;
   flex-direction: column;
@@ -92,7 +94,7 @@ section{
       text-align: center;
       top: 70px;
       }
-      .note1{
+      .image1menu1{
         position: relative;
         top: 100px;
         left: 380px;
@@ -119,26 +121,27 @@ section{
   margin-top: 70px;
 }
 
-.note2{
+.image4menu1{
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   top: 10px;
 }
 
-.trait{
+.image2menu1{
   position: relative;
   width: 25%;
   top: 120px;
   left: 120px;
 }
-.trait2{
+.image3menu1{
   position: relative;
   width: 25%;
   top: 26px;
   left: 500px;
 }
 
+/* menu2 */
 .chic{
   background-color: $pink2;
   display: flex;
@@ -163,7 +166,7 @@ section{
           }
 }
 
-.logo1{
+.image1menu2{
   position: relative;
   width: 25%;
   top: 115px;
@@ -171,35 +174,35 @@ section{
 
 }
 
-.logo2{
+.image2menu2{
   position: relative;
   width: 25%;
   top: 15px;
   left: 530px;
 }
 
-.logo3{
+.image3menu2{
   position: relative;
   width: 25%;
   top: 110px;
   left: 90px;
 }
 
-.logo4{
+.image4menu2{
   position: relative;
   width: 25%;
   top: 15px;
   left: 520px;
 }
 
-.logo5{
+.image5menu2{
   position: relative;
   width: 25%;
   top: 105px;
   left: 90px;
 }
 
-.logo6{
+.image6menu2{
   position: relative;
   width: 25%;
   top: 15px;
@@ -229,6 +232,7 @@ section{
      -webkit-text-fill-color: transparent;
 }
 
+/* menu3 */
 .papilles{
   background-color: $pink3;
   display: flex;
@@ -304,6 +308,7 @@ section{
   font-size: 55px;
 }
 
+/* menu4 */
 .palette{
   background-color: $white;
   display: flex;

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* police */
 @font-face {
   font-family: "kaushan_scriptregular";
   src: url("../police/kaushanscript/kaushanscript-regular-webfont.woff2") format("woff2"), url("../police/kaushanscript/kaushanscript-regular-webfont.woff") format("woff");
@@ -59,32 +60,33 @@ section article {
   margin-left: 23%;
 }
 
-.pink {
+/* menu1 */
+.enchanté {
   background-color: rgba(250, 221, 216, 0.925);
   display: flex;
   flex-direction: column;
   text-align: left;
   font-family: "kaushan_scriptregular";
 }
-.pink table {
+.enchanté table {
   margin-right: 100px;
   margin-left: 100px;
   margin-top: 55px;
   border-spacing: 15px;
 }
-.pink h3, .pink h4, .pink h5 {
+.enchanté h3, .enchanté h4, .enchanté h5 {
   position: relative;
   text-align: center;
   top: 70px;
 }
-.pink .note1 {
+.enchanté .image1menu1 {
   position: relative;
   top: 100px;
   left: 380px;
   width: 60px;
   height: 60px;
 }
-.pink p {
+.enchanté p {
   margin-left: 118px;
   position: relative;
   top: 60px;
@@ -103,27 +105,28 @@ section article {
   margin-top: 70px;
 }
 
-.note2 {
+.image4menu1 {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   top: 10px;
 }
 
-.trait {
+.image2menu1 {
   position: relative;
   width: 25%;
   top: 120px;
   left: 120px;
 }
 
-.trait2 {
+.image3menu1 {
   position: relative;
   width: 25%;
   top: 26px;
   left: 500px;
 }
 
+/* menu2 */
 .chic {
   background-color: #fef7ff;
   display: flex;
@@ -148,42 +151,42 @@ section article {
   top: 120px;
 }
 
-.logo1 {
+.image1menu2 {
   position: relative;
   width: 25%;
   top: 115px;
   left: 90px;
 }
 
-.logo2 {
+.image2menu2 {
   position: relative;
   width: 25%;
   top: 15px;
   left: 530px;
 }
 
-.logo3 {
+.image3menu2 {
   position: relative;
   width: 25%;
   top: 110px;
   left: 90px;
 }
 
-.logo4 {
+.image4menu2 {
   position: relative;
   width: 25%;
   top: 15px;
   left: 520px;
 }
 
-.logo5 {
+.image5menu2 {
   position: relative;
   width: 25%;
   top: 105px;
   left: 90px;
 }
 
-.logo6 {
+.image6menu2 {
   position: relative;
   width: 25%;
   top: 15px;
@@ -213,6 +216,7 @@ section article {
   -webkit-text-fill-color: transparent;
 }
 
+/* menu3 */
 .papilles {
   background-color: #ecece9;
   display: flex;
@@ -288,6 +292,7 @@ section article {
   font-size: 55px;
 }
 
+/* menu4 */
 .palette {
   background-color: white;
   display: flex;
