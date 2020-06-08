@@ -1,6 +1,7 @@
 $pink: rgba(250, 221, 216, 0.925);
 $yellow: #F1C40F;
 $green: #16A085;
+$pink2: rgb(254, 247, 255);
 
 @font-face {
     font-family: 'kaushan_scriptregular';
@@ -8,6 +9,15 @@ $green: #16A085;
          url('../police/kaushanscript/kaushanscript-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'loraregular';
+    src: url('police/lora/lora-regular-webfont.woff2') format('woff2'),
+         url('police/lora/lora-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 html, body {
@@ -109,6 +119,96 @@ section{
   width: 25%;
   top: 26px;
   left: 500px;
+}
+
+.chic{
+  background-color: $pink2;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: 'loraregular';
+  table{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 95px;
+    border-spacing: 20px;
+    }
+    h3, h4, h5{
+      position: relative;
+      text-align: center;
+      top: 60px;
+      }
+      p{
+          margin-left: 118px;
+          position: relative;
+          top: 120px;
+          }
+}
+
+.logo1{
+  position: relative;
+  width: 25%;
+  top: 115px;
+  left: 90px;
+
+}
+
+.logo2{
+  position: relative;
+  width: 25%;
+  top: 15px;
+  left: 530px;
+}
+
+.logo3{
+  position: relative;
+  width: 25%;
+  top: 110px;
+  left: 90px;
+}
+
+.logo4{
+  position: relative;
+  width: 25%;
+  top: 15px;
+  left: 520px;
+}
+
+.logo5{
+  position: relative;
+  width: 25%;
+  top: 105px;
+  left: 90px;
+}
+
+.logo6{
+  position: relative;
+  width: 25%;
+  top: 15px;
+  left: 530px;
+}
+
+.entrée, .plat, .dessert{
+  font-size: 20px;
+}
+
+.couleur1, .entrée{
+  color: orange;
+}
+
+.couleur2, .plat{
+  color: purple;
+}
+
+.couleur3, .dessert{
+  color: rgb(48, 9, 223);
+}
+
+.dégradé{
+  font-size: 30px;
+  background: linear-gradient(to right, orange , rgb(48, 9, 223));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
 }
 
 footer {
