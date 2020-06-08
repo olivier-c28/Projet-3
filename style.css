@@ -76,7 +76,7 @@ article .menu {
   background-color: #fef7ff;
   font-family: "loraregular";
   font-size: 18px;
-  background: linear-gradient(to right, red, yellow);
+  background: linear-gradient(to right, orange, #3009df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

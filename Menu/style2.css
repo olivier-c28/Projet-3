@@ -11,6 +11,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "alluraregular";
+  src: url("police/allura/allura-regular-webfont.woff2") format("woff2"), url("police/allura/allura-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "boogalooregular";
+  src: url("police/boogaloo/boogaloo-regular-webfont.woff2") format("woff2"), url("police/boogaloo/boogaloo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -200,6 +212,42 @@ section article {
   background: linear-gradient(to right, orange, #3009df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.papilles {
+  background-color: #ecece9;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: "boogalooregular";
+}
+.papilles table {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 95px;
+  border-spacing: 20px;
+}
+.papilles h3, .papilles h4, .papilles h5 {
+  position: relative;
+  text-align: center;
+  top: 60px;
+}
+.papilles p {
+  margin-left: 118px;
+  position: relative;
+  top: 120px;
+}
+
+.image1menu3 {
+  position: relative;
+  width: 25%;
+  top: 105px;
+  left: 90px;
+}
+
+.titremenu3 {
+  font-family: "alluraregular";
+  font-size: 55px;
 }
 
 footer {
