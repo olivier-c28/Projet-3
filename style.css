@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*police*/
 @font-face {
   font-family: "kaushan_scriptregular";
@@ -99,6 +100,8 @@ article .menu {
 
 .button {
   position: relative;
+  display: flex;
+  flex-direction: row;
   width: 370px;
   height: 55px;
   left: 39%;
@@ -109,12 +112,33 @@ article .menu {
 
 .text {
   position: relative;
-  left: 65px;
-  top: 5px;
-  font-size: 40px;
+  font-size: 39px;
   color: #F1C40F;
+  left: 50px;
+  top: 5px;
 }
 
+.text:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4, end) 1300ms infinite;
+  animation: ellipsis steps(4, end) 2000ms infinite;
+  content: "…";
+  /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em;
+  }
+  @-webkit-keyframes ellipsis {
+    to {
+      width: 1.25em;
+    }
+  }
+}
 footer {
   position: relative;
   width: 100%;
@@ -125,20 +149,41 @@ footer {
 
 .text1 {
   position: relative;
+  display: inline-block;
   left: 1%;
   top: 30px;
   font-size: 30px;
   color: #F1C40F;
+  animation: wiggle 3s infinite;
 }
 
 .text2 {
   position: relative;
+  display: inline-block;
   left: 72%;
   top: 30px;
   font-size: 30px;
   color: #F1C40F;
+  animation: wiggle 3s infinite;
 }
 
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(5deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 a {
   text-decoration: none;
   color: #F1C40F;

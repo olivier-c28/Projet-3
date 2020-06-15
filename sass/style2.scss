@@ -168,44 +168,44 @@ section{
 
 .image1menu2{
   position: relative;
-  width: 25%;
-  top: 115px;
-  left: 90px;
+  width: 22%;
+  top: 110px;
+  left: 110px;
 
 }
 
 .image2menu2{
   position: relative;
-  width: 25%;
-  top: 15px;
+  width: 22%;
+  top: 10px;
   left: 530px;
 }
 
 .image3menu2{
   position: relative;
-  width: 25%;
-  top: 110px;
-  left: 90px;
+  width: 22%;
+  top: 106px;
+  left: 110px;
 }
 
 .image4menu2{
   position: relative;
-  width: 25%;
-  top: 15px;
+  width: 22%;
+  top: 11px;
   left: 520px;
 }
 
 .image5menu2{
   position: relative;
-  width: 25%;
-  top: 105px;
-  left: 90px;
+  width: 22%;
+  top: 103px;
+  left: 110px;
 }
 
 .image6menu2{
   position: relative;
-  width: 25%;
-  top: 15px;
+  width: 22%;
+  top: 12px;
   left: 530px;
 }
 
@@ -260,42 +260,42 @@ section{
 
 .image1menu3{
   position: relative;
-  width: 25%;
-  top: 105px;
+  width: 24%;
+  top: 102px;
   left: 90px;
 }
 
 .image2menu3{
   position: relative;
-  width: 25%;
-  top: 20px;
+  width: 24%;
+  top: 14px;
   left: 525px;
 }
 
 .image3menu3{
   position: relative;
-  width: 25%;
-  top: 105px;
+  width: 24%;
+  top: 102px;
   left: 90px;
 }
 
 .image4menu3{
   position: relative;
-  width: 25%;
-  top: 20px;
+  width: 24%;
+  top: 18px;
   left: 525px;
 }
 
 .image5menu3{
   position: relative;
-  width: 25%;
+  width: 24%;
   top: 100px;
   left: 90px;
 }
 
 .image6menu3{
   position: relative;
-  width: 25%;
+  width: 24%;
   top: 20px;
   left: 525px;
 }
@@ -337,43 +337,43 @@ section{
 
 .image1menu4{
   position: relative;
-  width: 25%;
-  top: 105px;
+  width: 24%;
+  top: 100px;
   left: 90px;
 }
 
 .image2menu4{
   position: relative;
-  width: 25%;
-  top: 25px;
+  width: 24%;
+  top: 18px;
   left: 530px;
 }
 
   .image3menu4{
   position: relative;
-  width: 25%;
-  top: 105px;
+  width: 24%;
+  top: 100px;
   left: 90px;
 }
 
   .image4menu4{
   position: relative;
-  width: 25%;
-  top: 25px;
+  width: 24%;
+  top: 18px;
   left: 530px;
 }
 
   .image5menu4{
   position: relative;
-  width: 25%;
-  top: 105px;
+  width: 24%;
+  top: 100px;
   left: 90px;
 }
 
   .image6menu4{
   position: relative;
-  width: 25%;
-  top: 25px;
+  width: 24%;
+  top: 18px;
   left: 530px;
 }
 
@@ -382,6 +382,22 @@ section{
   background: linear-gradient(to right, rgb(8, 145, 8), rgb(240, 241, 240));
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+}
+
+h4:after {
+  content: '';
+  transform-origin: 0 0; 
+  transform: scaleX(0);
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  height: .1em; 
+  background: black;
+  transition: transform .5s;
+}
+h4:hover::after {
+  transform: scaleX(1);
 }
 
 footer {
