@@ -53,9 +53,9 @@ header {
 }
 
 h1 {
+  display: flex;
   position: relative;
-  display: inline;
-  left: 40%;
+  left: 43%;
   font-size: 65px;
   color: $yellow;
 }
@@ -63,8 +63,9 @@ h1 {
 section{
   display: flex;
   flex-direction: column;
-  position: relative;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
   h2{
     font-size: 40px;
     font-weight: bolder;
@@ -72,7 +73,6 @@ section{
     article{
       width: 820px;
       height: 1330px;
-      margin-left: 23%;
       }
 }
 
@@ -418,7 +418,7 @@ footer {
 
 .text2 {
   position: relative;
-  left: 72%;
+  left: 78%;
   top: 30px;
   font-size: 30px;
   color: $yellow;
