@@ -72,6 +72,9 @@ article .menu {
   font-family: "kaushan_scriptregular";
   color: black;
 }
+.menu1:hover {
+  transform: scale(1.15);
+}
 
 .menu2 {
   background-color: #fef7ff;
@@ -81,12 +84,18 @@ article .menu {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.menu2:hover {
+  transform: scale(1.15);
+}
 
 .menu3 {
   background: #f8f8f0;
   font-family: "alluraregular";
   font-size: 18px;
   color: blue;
+}
+.menu3:hover {
+  transform: scale(1.15);
 }
 
 .menu4 {
@@ -95,6 +104,9 @@ article .menu {
   font-style: italic;
   font-size: 18px;
   color: #11ca11;
+}
+.menu4:hover {
+  transform: scale(1.15);
 }
 
 .button {
