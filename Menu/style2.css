@@ -412,6 +412,11 @@ a {
   color: #F1C40F;
 }
 
+@media all and (max-width: 1024px) {
+  img {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style2.css.map */
 
 /*# sourceMappingURL=style2.css.map */
