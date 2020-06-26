@@ -412,6 +412,7 @@ a {
   color: #F1C40F;
 }
 
+/*responsive*/
 @media all and (max-width: 1024px) {
   img {
     display: none;
