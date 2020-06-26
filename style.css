@@ -206,18 +206,27 @@ a {
 
 @media all and (max-width: 1024px) {
   body {
-    width: auto;
+    width: 100%;
   }
 
   section {
     width: auto;
     flex-direction: column;
     justify-content: center;
-    margin-left: 25%;
+    margin-left: none;
   }
 
   .button {
-    left: 21%;
+    width: 310px;
+  }
+
+  .text {
+    left: 10px;
+  }
+
+  .text1, .text2 {
+    top: 0px;
+    animation: none;
   }
 }
 
