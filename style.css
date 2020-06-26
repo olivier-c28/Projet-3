@@ -25,8 +25,10 @@
   font-style: normal;
 }
 html, body {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 header {
@@ -53,6 +55,7 @@ article {
   position: relative;
   width: 320px;
   height: 510px;
+  margin: 15px;
   box-shadow: 1px 2px 4px 4px rgba(235, 233, 233, 0.87);
 }
 article .titre_menu {
@@ -113,7 +116,6 @@ article .menu {
   position: relative;
   width: 370px;
   height: 55px;
-  left: 38%;
   margin-top: 200px;
   border-radius: 12px;
   background-color: #16A085;
