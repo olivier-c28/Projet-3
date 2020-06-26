@@ -25,6 +25,7 @@
   font-style: normal;
 }
 html, body {
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,6 +166,7 @@ footer {
   position: relative;
   display: inline-block;
   top: 30px;
+  padding: 10px;
   font-size: 30px;
   color: #F1C40F;
   animation: wiggle 3s infinite;
@@ -174,6 +176,7 @@ footer {
   position: relative;
   display: inline-block;
   top: 30px;
+  padding: 10px;
   font-size: 30px;
   color: #F1C40F;
   animation: wiggle 3s infinite;

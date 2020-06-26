@@ -37,6 +37,7 @@ $yellow: #F1C40F;
     font-style: normal;
 }
 html, body {
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,6 +177,7 @@ footer{
     position: relative;
     display: inline-block;
     top: 30px;
+    padding: 10px;
     font-size: 30px;
     color: $yellow;
 
@@ -186,6 +188,7 @@ footer{
     position: relative;
     display: inline-block;
     top: 30px;
+    padding: 10px;
     font-size: 30px;
     color: $yellow;
 
