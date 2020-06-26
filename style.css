@@ -214,7 +214,7 @@ a {
     width: auto;
     flex-direction: column;
     justify-content: center;
-    margin-left: none;
+    margin-left: 0px;
   }
 
   .button {
