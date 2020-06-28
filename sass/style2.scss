@@ -383,17 +383,19 @@ section{
      -webkit-text-fill-color: transparent;
 }
 
-.h4soulignement:after {
+h4:after {
   content: '';
   transform-origin: 0 0; 
   transform: scaleX(0);
   position: absolute;
   bottom: 0;
+  left: 35%;
+  right: 35%;
   height: .1em; 
   background: black;
   transition: transform .5s;
 }
-.h4soulignement:hover::after {
+h4:hover::after {
   transform: scaleX(1);
 }
 
