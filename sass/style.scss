@@ -91,13 +91,17 @@ section{
      font-family: 'kaushan_scriptregular';
      color: black;  
  }
+
  .menu2{
-     background-color: rgb(21, 14, 22);
+     background-color: rgba(250, 221, 216, 0.925);
      font-family: 'loraregular';
      font-size: 18px;
-     background: linear-gradient(to right, orange , rgb(48, 9, 223));
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+ }
+
+ .couleur1{
+     background: linear-gradient(to right, orange, #3009df);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
  }
 
  .menu3{
@@ -106,12 +110,13 @@ section{
      font-size: 18px;
      color: blue;
  }
+
  .menu4{
      background: rgb(255, 255, 255);
      font-family: 'boogalooregular';
      font-style: italic;
      font-size: 18px;
-     color: rgb(17, 202, 17);
+     color: #11ca11;
  }
 
 .button{
