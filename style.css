@@ -64,6 +64,9 @@ article .titre_menu {
   margin-top: 180px;
   padding-top: 180px;
 }
+article .titre_menu:hover {
+  transform: scale(1.45);
+}
 article .menu {
   text-transform: uppercase;
   font-weight: bold;
@@ -76,20 +79,14 @@ article .menu {
   font-family: "kaushan_scriptregular";
   color: black;
 }
-.menu1:hover {
-  transform: scale(1.15);
-}
 
 .menu2 {
-  background-color: #fef7ff;
+  background-color: #150e16;
   font-family: "loraregular";
   font-size: 18px;
   background: linear-gradient(to right, orange, #3009df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-.menu2:hover {
-  transform: scale(1.15);
 }
 
 .menu3 {
@@ -98,9 +95,6 @@ article .menu {
   font-size: 18px;
   color: blue;
 }
-.menu3:hover {
-  transform: scale(1.15);
-}
 
 .menu4 {
   background: white;
@@ -108,9 +102,6 @@ article .menu {
   font-style: italic;
   font-size: 18px;
   color: #11ca11;
-}
-.menu4:hover {
-  transform: scale(1.15);
 }
 
 .button {
@@ -145,10 +136,10 @@ article .menu {
   to {
     width: 1.25em;
   }
-  @-webkit-keyframes ellipsis {
-    to {
-      width: 1.25em;
-    }
+}
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em;
   }
 }
 footer {

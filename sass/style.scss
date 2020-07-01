@@ -74,7 +74,10 @@ section{
         text-align: center;
         margin-top: 180px;
         padding-top: 180px;
+        &:hover{
+        transform: scale(1.45);
         }
+    }
         .menu{
             text-transform: uppercase;
             font-weight: bold;
@@ -86,31 +89,22 @@ section{
  .menu1{
      background: rgba(250, 221, 216, 0.925);
      font-family: 'kaushan_scriptregular';
-     color: black;
-     &:hover{
-        transform: scale(1.15);
-    }  
+     color: black;  
  }
  .menu2{
-     background-color: rgb(254, 247, 255);
+     background-color: rgb(21, 14, 22);
      font-family: 'loraregular';
      font-size: 18px;
      background: linear-gradient(to right, orange , rgb(48, 9, 223));
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
-     &:hover{
-        transform: scale(1.15);
-    }
-}
+ }
 
  .menu3{
      background: rgb(248, 248, 240);
      font-family: 'alluraregular';
      font-size: 18px;
      color: blue;
-     &:hover{
-        transform: scale(1.15);
-    }
  }
  .menu4{
      background: rgb(255, 255, 255);
@@ -118,9 +112,6 @@ section{
      font-style: italic;
      font-size: 18px;
      color: rgb(17, 202, 17);
-     &:hover{
-        transform: scale(1.15);
-    }
  }
 
 .button{
