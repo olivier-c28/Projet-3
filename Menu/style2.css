@@ -415,7 +415,7 @@ a {
 }
 
 /*responsive*/
-@media all and (max-width: 1024px) {
+@media only screen and (max-device-width: 480px) {
   img {
     display: none;
   }
@@ -441,6 +441,11 @@ a {
   .text1, .text2 {
     top: 0px;
     animation: none;
+  }
+
+  footer {
+    position: relative;
+    top: 7%;
   }
 }
 /*# sourceMappingURL=style2.css.map */
